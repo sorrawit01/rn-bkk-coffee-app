@@ -39,7 +39,7 @@ export default function RootLayout() {
         }}
       />
       <Stack.Screen
-        name="details"
+        name="detail"
         options={{
           title: "รายละเอียดร้าน",
           headerBackButtonDisplayMode: "minimal",
@@ -48,7 +48,7 @@ export default function RootLayout() {
             fontFamily: "Kanit_400Regular",
           },
           headerStyle: {
-            backgroundColor: "#ffffff",
+            backgroundColor: "#dc8914",
           },
         }}
       />
